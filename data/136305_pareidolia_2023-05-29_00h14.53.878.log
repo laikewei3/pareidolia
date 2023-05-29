@@ -1,0 +1,122 @@
+10.2205 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000266DD9A8E20>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000266DD9A8DC0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000266DD9A8AC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000266DE9AC670>, multiSample=False, name='window1', numSamples=2, pos=(426, 266), screen=0, size=array([1707, 1067]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.2207 	EXP 	window1: mouseVisible = True
+10.2207 	EXP 	window1: backgroundImage = ''
+10.2208 	EXP 	window1: backgroundFit = 'none'
+10.2208 	EXP 	window1: mouseVisible = True
+10.2208 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.2209 	EXP 	window1: recordFrameIntervals = False
+10.3869 	EXP 	window1: recordFrameIntervals = True
+10.5701 	EXP 	Screen (0) actual frame rate measured at 59.95Hz
+10.5702 	EXP 	window1: recordFrameIntervals = False
+10.6000 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+13.4576 	EXP 	Created Instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instruction', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.4682 	EXP 	Created startDemo = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='startDemo', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Before we start, let us try a demo.', units='height', win=Window(...), wrapWidth=1)
+13.4831 	EXP 	Created demoInstruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='demoInstruction', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.4896 	EXP 	Created demoFixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='demoFixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.5129 	EXP 	Created demoImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='demoImage', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+13.5157 	EXP 	Created Feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.5260 	EXP 	Created demoLoop = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='demoLoop', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.5410 	EXP 	Created ExpInstruc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ExpInstruc', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.5468 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.5656 	EXP 	Created expImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='expImg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+13.5677 	EXP 	Created expFeedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='expFeedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.5788 	EXP 	Created goodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='goodbye', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.6005 	EXP 	Instruction: autoDraw = True
+15.4522 	EXP 	Imported demo.xlsx as conditions, 19 conditions, 2 params
+15.6467 	EXP 	Created sequence: random, trialTypes=19, nReps=9999, seed=None
+15.7016 	EXP 	New trial (rep=0, index=0): {'stimuli': 'images/demo (5).png', 'demo_face': 'y'}
+15.7586 	EXP 	Instruction: autoDraw = False
+15.7586 	EXP 	demoImage: image = 'images/demo (5).png'
+15.7586 	EXP 	startDemo: autoDraw = True
+16.4421 	EXP 	demoInstruction: autoDraw = True
+16.7695 	EXP 	startDemo: autoDraw = False
+17.4059 	DATA 	Keypress: return
+17.4546 	EXP 	demoInstruction: autoDraw = False
+17.4546 	EXP 	demoFixation: autoDraw = True
+17.9530 	EXP 	demoFixation: autoDraw = False
+17.9530 	EXP 	demoImage: autoDraw = True
+18.5649 	EXP 	startDemo: autoDraw = False
+18.5649 	EXP 	demoInstruction: autoDraw = False
+18.5649 	EXP 	demoFixation: autoDraw = False
+18.5649 	EXP 	demoImage: autoDraw = False
+18.5649 	EXP 	Feedback: height = 0.05
+18.5649 	EXP 	Feedback: height = 0.05
+18.5649 	EXP 	Feedback: height = 0.05
+18.5649 	EXP 	Feedback: text = 'Correct'
+18.5649 	EXP 	Feedback: autoDraw = True
+19.5696 	EXP 	Feedback: autoDraw = False
+19.5696 	EXP 	demoLoop: autoDraw = True
+20.4900 	DATA 	Keypress: lshift
+20.9851 	EXP 	New trial (rep=0, index=1): {'stimuli': 'images/demo (11).png', 'demo_face': 'y'}
+20.9957 	EXP 	Feedback: autoDraw = False
+20.9957 	EXP 	demoLoop: autoDraw = False
+20.9957 	EXP 	demoImage: image = 'images/demo (11).png'
+20.9957 	EXP 	startDemo: autoDraw = True
+20.9981 	DATA 	Keypress: n
+21.9524 	EXP 	demoInstruction: autoDraw = True
+22.0030 	EXP 	startDemo: autoDraw = False
+22.9529 	EXP 	demoInstruction: autoDraw = False
+22.9529 	EXP 	demoFixation: autoDraw = True
+23.4530 	EXP 	demoFixation: autoDraw = False
+23.4530 	EXP 	demoImage: autoDraw = True
+24.2079 	EXP 	startDemo: autoDraw = False
+24.2079 	EXP 	demoInstruction: autoDraw = False
+24.2079 	EXP 	demoFixation: autoDraw = False
+24.2079 	EXP 	demoImage: autoDraw = False
+24.2079 	EXP 	Feedback: text = 'Correct'
+24.2079 	EXP 	Feedback: autoDraw = True
+24.2103 	DATA 	Keypress: y
+25.2031 	EXP 	demoLoop: autoDraw = True
+25.2197 	EXP 	Feedback: autoDraw = False
+25.8523 	EXP 	Feedback: autoDraw = False
+25.8523 	EXP 	demoLoop: autoDraw = False
+25.8523 	EXP 	ExpInstruc: autoDraw = True
+25.8560 	DATA 	Keypress: y
+26.7679 	EXP 	Imported pareidolia.xlsx as conditions, 44 conditions, 2 params
+26.7702 	EXP 	Created sequence: random, trialTypes=44, nReps=44, seed=None
+26.7708 	EXP 	New trial (rep=0, index=0): {'stimuli_images': 'images/AF - girl 2.png', 'face': 'y'}
+26.8512 	EXP 	ExpInstruc: autoDraw = False
+26.8512 	EXP 	expImg: image = 'images/AF - girl 2.png'
+26.8512 	EXP 	fixation: autoDraw = True
+26.8535 	DATA 	Keypress: y
+27.2701 	EXP 	expImg: autoDraw = True
+27.3537 	EXP 	fixation: autoDraw = False
+30.2905 	EXP 	expImg: autoDraw = False
+30.2905 	EXP 	fixation: autoDraw = False
+30.2905 	EXP 	expImg: autoDraw = False
+30.2905 	EXP 	expFeedback: height = 0.05
+30.2905 	EXP 	expFeedback: height = 0.05
+30.2905 	EXP 	expFeedback: height = 0.05
+30.2905 	EXP 	expFeedback: text = <psychopy.hardware.keyboard.Keyboard object at 0x00000266E7BE7D00>
+30.2905 	EXP 	expFeedback: autoDraw = True
+31.2724 	EXP 	New trial (rep=0, index=1): {'stimuli_images': 'images/F - House.jpg', 'face': 'y'}
+31.3722 	EXP 	expFeedback: autoDraw = False
+31.3722 	EXP 	expImg: image = 'images/F - House.jpg'
+31.3722 	EXP 	fixation: autoDraw = True
+31.7701 	EXP 	expImg: autoDraw = True
+31.8867 	EXP 	fixation: autoDraw = False
+34.7698 	EXP 	expImg: autoDraw = False
+34.7698 	EXP 	fixation: autoDraw = False
+34.7698 	EXP 	expImg: autoDraw = False
+34.7698 	EXP 	expFeedback: height = 0.05
+34.7698 	EXP 	expFeedback: height = 0.05
+34.7698 	EXP 	expFeedback: height = 0.05
+34.7698 	EXP 	expFeedback: text = <psychopy.hardware.keyboard.Keyboard object at 0x00000266E7BE7D00>
+34.7698 	EXP 	expFeedback: autoDraw = True
+35.7541 	EXP 	New trial (rep=0, index=2): {'stimuli_images': 'images/ANF - Cat.jpg', 'face': 'n'}
+35.7867 	EXP 	expFeedback: autoDraw = False
+35.7867 	EXP 	expFeedback: autoDraw = False
+35.7867 	EXP 	expImg: image = 'images/ANF - Cat.jpg'
+35.7867 	EXP 	fixation: autoDraw = True
+36.2699 	EXP 	expImg: autoDraw = True
+36.2868 	EXP 	fixation: autoDraw = False
+39.2698 	EXP 	expImg: autoDraw = False
+39.2698 	EXP 	fixation: autoDraw = False
+39.2698 	EXP 	expImg: autoDraw = False
+39.2698 	EXP 	expFeedback: height = 0.05
+39.2698 	EXP 	expFeedback: height = 0.05
+39.2698 	EXP 	expFeedback: height = 0.05
+39.2698 	EXP 	expFeedback: text = <psychopy.hardware.keyboard.Keyboard object at 0x00000266E7BE7D00>
+39.2698 	EXP 	expFeedback: autoDraw = True
+40.0390 	DATA 	Keypress: escape
+40.3527 	EXP 	window1: mouseVisible = True

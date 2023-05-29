@@ -1,0 +1,953 @@
+10.3976 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000219E1836EB0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000219E1836E50>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000219E1836B50>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000219E283A6D0>, multiSample=False, name='window1', numSamples=2, pos=(426, 266), screen=0, size=array([1707, 1067]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.3977 	EXP 	window1: mouseVisible = True
+10.3978 	EXP 	window1: backgroundImage = ''
+10.3978 	EXP 	window1: backgroundFit = 'none'
+10.3978 	EXP 	window1: mouseVisible = True
+10.3978 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.3979 	EXP 	window1: recordFrameIntervals = False
+10.5634 	EXP 	window1: recordFrameIntervals = True
+10.7470 	EXP 	Screen (0) actual frame rate measured at 59.93Hz
+10.7470 	EXP 	window1: recordFrameIntervals = False
+10.7610 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+12.0745 	EXP 	Created Instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instruction', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.0780 	EXP 	Created startDemo = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='startDemo', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Before we start, let us try a demo.', units='height', win=Window(...), wrapWidth=1)
+12.0833 	EXP 	Created demoInstruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='demoInstruction', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.0857 	EXP 	Created demoFixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='demoFixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+12.0942 	EXP 	Created demoImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='demoImage', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+12.0951 	EXP 	Created Feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.0994 	EXP 	Created demoLoop = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='demoLoop', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1041 	EXP 	Created ExpInstruc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ExpInstruc', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1057 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+12.1133 	EXP 	Created expImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='expImg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+12.1142 	EXP 	Created expFeedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='expFeedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.1187 	EXP 	Created goodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='goodbye', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1287 	EXP 	Instruction: autoDraw = True
+12.6855 	EXP 	Imported demo.xlsx as conditions, 19 conditions, 2 params
+12.7571 	EXP 	Created sequence: random, trialTypes=19, nReps=9999, seed=None
+12.7770 	EXP 	New trial (rep=0, index=0): {'stimuli': 'images/demo (8).png', 'demo_face': 'y'}
+12.8072 	EXP 	Instruction: autoDraw = False
+12.8072 	EXP 	demoImage: image = 'images/demo (8).png'
+12.8072 	EXP 	startDemo: autoDraw = True
+13.6794 	EXP 	demoInstruction: autoDraw = True
+13.8126 	EXP 	startDemo: autoDraw = False
+14.2979 	DATA 	Keypress: lshift
+14.6836 	EXP 	demoInstruction: autoDraw = False
+14.6836 	EXP 	demoFixation: autoDraw = True
+14.9648 	DATA 	Keypress: y
+15.1797 	EXP 	demoImage: autoDraw = True
+15.1966 	EXP 	demoFixation: autoDraw = False
+15.5192 	EXP 	startDemo: autoDraw = False
+15.5192 	EXP 	demoInstruction: autoDraw = False
+15.5192 	EXP 	demoFixation: autoDraw = False
+15.5192 	EXP 	demoImage: autoDraw = False
+15.5192 	EXP 	Feedback: height = 0.05
+15.5192 	EXP 	Feedback: height = 0.05
+15.5192 	EXP 	Feedback: height = 0.05
+15.5192 	EXP 	Feedback: text = 'Correct'
+15.5192 	EXP 	Feedback: autoDraw = True
+15.5207 	DATA 	Keypress: y
+16.5142 	EXP 	demoLoop: autoDraw = True
+16.5301 	EXP 	Feedback: autoDraw = False
+16.9618 	EXP 	Feedback: autoDraw = False
+16.9618 	EXP 	demoLoop: autoDraw = False
+16.9618 	EXP 	ExpInstruc: autoDraw = True
+16.9634 	DATA 	Keypress: y
+18.8855 	EXP 	Imported pareidolia.xlsx as conditions, 44 conditions, 2 params
+18.8862 	EXP 	Created sequence: random, trialTypes=44, nReps=5, seed=None
+18.8864 	EXP 	New trial (rep=0, index=0): {'stimuli_images': 'images/ANF - Cat.jpg', 'face': 'n'}
+18.9150 	EXP 	ExpInstruc: autoDraw = False
+18.9150 	EXP 	expImg: image = 'images/ANF - Cat.jpg'
+18.9150 	EXP 	fixation: autoDraw = True
+18.9162 	DATA 	Keypress: y
+19.3805 	EXP 	expImg: autoDraw = True
+19.4299 	EXP 	fixation: autoDraw = False
+20.4965 	EXP 	fixation: autoDraw = False
+20.4965 	EXP 	expImg: autoDraw = False
+20.4965 	EXP 	expFeedback: height = 0.05
+20.4965 	EXP 	expFeedback: height = 0.05
+20.4965 	EXP 	expFeedback: height = 0.05
+20.4965 	EXP 	expFeedback: text = 'Wrong'
+20.4965 	EXP 	expFeedback: autoDraw = True
+20.4978 	DATA 	Keypress: y
+21.4811 	EXP 	New trial (rep=0, index=1): {'stimuli_images': 'images/F - Mugs.jpg', 'face': 'y'}
+21.4969 	EXP 	expFeedback: autoDraw = False
+21.4969 	EXP 	expFeedback: autoDraw = False
+21.4969 	EXP 	expImg: image = 'images/F - Mugs.jpg'
+21.4969 	EXP 	fixation: autoDraw = True
+21.9806 	EXP 	expImg: autoDraw = True
+21.9967 	EXP 	fixation: autoDraw = False
+22.5296 	EXP 	fixation: autoDraw = False
+22.5296 	EXP 	expImg: autoDraw = False
+22.5296 	EXP 	expFeedback: height = 0.05
+22.5296 	EXP 	expFeedback: height = 0.05
+22.5296 	EXP 	expFeedback: height = 0.05
+22.5296 	EXP 	expFeedback: text = 'Correct'
+22.5296 	EXP 	expFeedback: autoDraw = True
+22.5310 	DATA 	Keypress: y
+23.5140 	EXP 	New trial (rep=0, index=2): {'stimuli_images': 'images/ANF - HoshinoAI.png', 'face': 'n'}
+23.6540 	EXP 	expFeedback: autoDraw = False
+23.6540 	EXP 	expFeedback: autoDraw = False
+23.6540 	EXP 	expImg: image = 'images/ANF - HoshinoAI.png'
+23.6540 	EXP 	fixation: autoDraw = True
+24.0308 	EXP 	expImg: autoDraw = True
+24.1641 	EXP 	fixation: autoDraw = False
+24.6952 	EXP 	fixation: autoDraw = False
+24.6952 	EXP 	expImg: autoDraw = False
+24.6952 	EXP 	expFeedback: height = 0.05
+24.6952 	EXP 	expFeedback: height = 0.05
+24.6952 	EXP 	expFeedback: height = 0.05
+24.6952 	EXP 	expFeedback: text = 'Wrong'
+24.6952 	EXP 	expFeedback: autoDraw = True
+24.6966 	DATA 	Keypress: y
+25.6473 	EXP 	New trial (rep=0, index=3): {'stimuli_images': 'images/ANF - Duck.png', 'face': 'n'}
+25.6633 	EXP 	expFeedback: autoDraw = False
+25.6633 	EXP 	expImg: image = 'images/ANF - Duck.png'
+25.6633 	EXP 	fixation: autoDraw = True
+26.1472 	EXP 	expImg: autoDraw = True
+26.1638 	EXP 	fixation: autoDraw = False
+27.3303 	EXP 	fixation: autoDraw = False
+27.3303 	EXP 	expImg: autoDraw = False
+27.3303 	EXP 	expFeedback: height = 0.05
+27.3303 	EXP 	expFeedback: height = 0.05
+27.3303 	EXP 	expFeedback: height = 0.05
+27.3303 	EXP 	expFeedback: text = 'Correct'
+27.3303 	EXP 	expFeedback: autoDraw = True
+27.3319 	DATA 	Keypress: n
+28.3141 	EXP 	New trial (rep=0, index=4): {'stimuli_images': 'images/AF - Otter.jpg', 'face': 'y'}
+28.3475 	EXP 	expFeedback: autoDraw = False
+28.3475 	EXP 	expFeedback: autoDraw = False
+28.3475 	EXP 	expImg: image = 'images/AF - Otter.jpg'
+28.3475 	EXP 	fixation: autoDraw = True
+28.8306 	EXP 	expImg: autoDraw = True
+28.8473 	EXP 	fixation: autoDraw = False
+29.8137 	EXP 	fixation: autoDraw = False
+29.8137 	EXP 	expImg: autoDraw = False
+29.8137 	EXP 	expFeedback: text = 'Correct'
+29.8137 	EXP 	expFeedback: autoDraw = True
+29.8150 	DATA 	Keypress: y
+30.0484 	DATA 	Keypress: y
+30.7974 	EXP 	New trial (rep=0, index=5): {'stimuli_images': 'images/NF - House.jpg', 'face': 'n'}
+30.8140 	EXP 	expFeedback: autoDraw = False
+30.8140 	EXP 	expFeedback: autoDraw = False
+30.8140 	EXP 	expImg: image = 'images/NF - House.jpg'
+30.8140 	EXP 	fixation: autoDraw = True
+31.3139 	EXP 	fixation: autoDraw = False
+31.3139 	EXP 	expImg: autoDraw = True
+32.1803 	EXP 	fixation: autoDraw = False
+32.1803 	EXP 	expImg: autoDraw = False
+32.1803 	EXP 	expFeedback: text = 'Correct'
+32.1803 	EXP 	expFeedback: autoDraw = True
+32.1818 	DATA 	Keypress: n
+33.1641 	EXP 	New trial (rep=0, index=6): {'stimuli_images': 'images/ANF - Aquamarine.png', 'face': 'n'}
+33.2595 	EXP 	expFeedback: autoDraw = False
+33.2595 	EXP 	expFeedback: autoDraw = False
+33.2595 	EXP 	expImg: image = 'images/ANF - Aquamarine.png'
+33.2595 	EXP 	fixation: autoDraw = True
+33.6810 	EXP 	expImg: autoDraw = True
+33.7641 	EXP 	fixation: autoDraw = False
+35.3134 	EXP 	fixation: autoDraw = False
+35.3134 	EXP 	expImg: autoDraw = False
+35.3134 	EXP 	expFeedback: text = 'Correct'
+35.3134 	EXP 	expFeedback: autoDraw = True
+35.3151 	DATA 	Keypress: n
+36.2975 	EXP 	New trial (rep=0, index=7): {'stimuli_images': 'images/ANF - girl 2.png', 'face': 'n'}
+36.3321 	EXP 	expFeedback: autoDraw = False
+36.3321 	EXP 	expFeedback: autoDraw = False
+36.3321 	EXP 	expImg: image = 'images/ANF - girl 2.png'
+36.3321 	EXP 	fixation: autoDraw = True
+36.8142 	EXP 	expImg: autoDraw = True
+36.8478 	EXP 	fixation: autoDraw = False
+39.7970 	EXP 	fixation: autoDraw = False
+39.7970 	EXP 	expImg: autoDraw = False
+39.7970 	EXP 	expFeedback: text = 'Correct'
+39.7970 	EXP 	expFeedback: autoDraw = True
+39.7981 	DATA 	Keypress: n
+40.7810 	EXP 	New trial (rep=0, index=8): {'stimuli_images': 'images/ANF - Otter.jpg', 'face': 'n'}
+40.7978 	EXP 	expFeedback: autoDraw = False
+40.7978 	EXP 	expFeedback: autoDraw = False
+40.7978 	EXP 	expImg: image = 'images/ANF - Otter.jpg'
+40.7978 	EXP 	fixation: autoDraw = True
+41.2975 	EXP 	fixation: autoDraw = False
+41.2975 	EXP 	expImg: autoDraw = True
+42.6638 	EXP 	fixation: autoDraw = False
+42.6638 	EXP 	expImg: autoDraw = False
+42.6638 	EXP 	expFeedback: text = 'Correct'
+42.6638 	EXP 	expFeedback: autoDraw = True
+42.6649 	DATA 	Keypress: n
+43.6481 	EXP 	New trial (rep=0, index=9): {'stimuli_images': 'images/AF - HoshinoAI.png', 'face': 'y'}
+43.7442 	EXP 	expFeedback: autoDraw = False
+43.7442 	EXP 	expFeedback: autoDraw = False
+43.7442 	EXP 	expImg: image = 'images/AF - HoshinoAI.png'
+43.7442 	EXP 	fixation: autoDraw = True
+44.1645 	EXP 	expImg: autoDraw = True
+44.2476 	EXP 	fixation: autoDraw = False
+44.6307 	EXP 	fixation: autoDraw = False
+44.6307 	EXP 	expImg: autoDraw = False
+44.6307 	EXP 	expFeedback: height = 0.05
+44.6307 	EXP 	expFeedback: height = 0.05
+44.6307 	EXP 	expFeedback: height = 0.05
+44.6307 	EXP 	expFeedback: text = 'Wrong'
+44.6307 	EXP 	expFeedback: autoDraw = True
+44.6318 	DATA 	Keypress: n
+45.6145 	EXP 	New trial (rep=0, index=10): {'stimuli_images': 'images/AF - Panda.jpg', 'face': 'y'}
+45.6481 	EXP 	expFeedback: autoDraw = False
+45.6481 	EXP 	expFeedback: autoDraw = False
+45.6481 	EXP 	expImg: image = 'images/AF - Panda.jpg'
+45.6481 	EXP 	fixation: autoDraw = True
+45.9156 	DATA 	Keypress: n
+46.1307 	EXP 	expImg: autoDraw = True
+46.1470 	EXP 	fixation: autoDraw = False
+46.3971 	EXP 	fixation: autoDraw = False
+46.3971 	EXP 	expImg: autoDraw = False
+46.3971 	EXP 	expFeedback: text = 'Wrong'
+46.3971 	EXP 	expFeedback: autoDraw = True
+46.3984 	DATA 	Keypress: n
+47.3808 	EXP 	New trial (rep=0, index=11): {'stimuli_images': 'images/NF - Mugs.jpg', 'face': 'n'}
+47.3970 	EXP 	expFeedback: autoDraw = False
+47.3970 	EXP 	expFeedback: autoDraw = False
+47.3970 	EXP 	expImg: image = 'images/NF - Mugs.jpg'
+47.3970 	EXP 	fixation: autoDraw = True
+47.7319 	DATA 	Keypress: n
+47.8806 	EXP 	expImg: autoDraw = True
+47.8973 	EXP 	fixation: autoDraw = False
+48.1305 	EXP 	fixation: autoDraw = False
+48.1305 	EXP 	expImg: autoDraw = False
+48.1305 	EXP 	expFeedback: height = 0.05
+48.1305 	EXP 	expFeedback: height = 0.05
+48.1305 	EXP 	expFeedback: height = 0.05
+48.1305 	EXP 	expFeedback: text = 'Correct'
+48.1305 	EXP 	expFeedback: autoDraw = True
+48.1322 	DATA 	Keypress: n
+49.1145 	EXP 	New trial (rep=0, index=12): {'stimuli_images': 'images/NF - Chilli.png', 'face': 'n'}
+49.1476 	EXP 	expFeedback: autoDraw = False
+49.1476 	EXP 	expFeedback: autoDraw = False
+49.1476 	EXP 	expImg: image = 'images/NF - Chilli.png'
+49.1476 	EXP 	fixation: autoDraw = True
+49.6309 	EXP 	expImg: autoDraw = True
+49.6474 	EXP 	fixation: autoDraw = False
+50.0139 	EXP 	fixation: autoDraw = False
+50.0139 	EXP 	expImg: autoDraw = False
+50.0139 	EXP 	expFeedback: text = 'Correct'
+50.0139 	EXP 	expFeedback: autoDraw = True
+50.0155 	DATA 	Keypress: n
+50.9975 	EXP 	New trial (rep=0, index=13): {'stimuli_images': 'images/F - Coffee.png', 'face': 'y'}
+51.0145 	EXP 	expFeedback: autoDraw = False
+51.0145 	EXP 	expFeedback: autoDraw = False
+51.0145 	EXP 	expImg: image = 'images/F - Coffee.png'
+51.0145 	EXP 	fixation: autoDraw = True
+51.5143 	EXP 	fixation: autoDraw = False
+51.5143 	EXP 	expImg: autoDraw = True
+51.9475 	EXP 	fixation: autoDraw = False
+51.9475 	EXP 	expImg: autoDraw = False
+51.9475 	EXP 	expFeedback: height = 0.05
+51.9475 	EXP 	expFeedback: height = 0.05
+51.9475 	EXP 	expFeedback: height = 0.05
+51.9475 	EXP 	expFeedback: text = 'Wrong'
+51.9475 	EXP 	expFeedback: autoDraw = True
+51.9488 	DATA 	Keypress: n
+52.9346 	EXP 	New trial (rep=0, index=14): {'stimuli_images': 'images/F - Chilli.png', 'face': 'y'}
+52.9678 	EXP 	expFeedback: autoDraw = False
+52.9678 	EXP 	expImg: image = 'images/F - Chilli.png'
+52.9678 	EXP 	fixation: autoDraw = True
+53.4342 	EXP 	expImg: autoDraw = True
+53.4671 	EXP 	fixation: autoDraw = False
+53.7471 	EXP 	fixation: autoDraw = False
+53.7471 	EXP 	expImg: autoDraw = False
+53.7471 	EXP 	expFeedback: text = 'Wrong'
+53.7471 	EXP 	expFeedback: autoDraw = True
+53.7483 	DATA 	Keypress: n
+54.7307 	EXP 	New trial (rep=0, index=15): {'stimuli_images': 'images/AF - girl 1.png', 'face': 'y'}
+54.7475 	EXP 	expFeedback: autoDraw = False
+54.7475 	EXP 	expFeedback: autoDraw = False
+54.7475 	EXP 	expImg: image = 'images/AF - girl 1.png'
+54.7475 	EXP 	fixation: autoDraw = True
+55.2472 	EXP 	fixation: autoDraw = False
+55.2472 	EXP 	expImg: autoDraw = True
+55.5135 	EXP 	fixation: autoDraw = False
+55.5135 	EXP 	expImg: autoDraw = False
+55.5135 	EXP 	expFeedback: text = 'Wrong'
+55.5135 	EXP 	expFeedback: autoDraw = True
+55.5147 	DATA 	Keypress: n
+56.4979 	EXP 	New trial (rep=0, index=16): {'stimuli_images': 'images/NF - Coffee.jpg', 'face': 'n'}
+56.5147 	EXP 	expFeedback: autoDraw = False
+56.5147 	EXP 	expFeedback: autoDraw = False
+56.5147 	EXP 	expImg: image = 'images/NF - Coffee.jpg'
+56.5147 	EXP 	fixation: autoDraw = True
+56.9976 	EXP 	expImg: autoDraw = True
+57.0146 	EXP 	fixation: autoDraw = False
+57.4471 	EXP 	fixation: autoDraw = False
+57.4471 	EXP 	expImg: autoDraw = False
+57.4471 	EXP 	expFeedback: height = 0.05
+57.4471 	EXP 	expFeedback: height = 0.05
+57.4471 	EXP 	expFeedback: height = 0.05
+57.4471 	EXP 	expFeedback: text = 'Correct'
+57.4471 	EXP 	expFeedback: autoDraw = True
+57.4483 	DATA 	Keypress: n
+58.4310 	EXP 	New trial (rep=0, index=17): {'stimuli_images': 'images/ANF- Dance.png', 'face': 'n'}
+58.4641 	EXP 	expFeedback: autoDraw = False
+58.4641 	EXP 	expFeedback: autoDraw = False
+58.4641 	EXP 	expImg: image = 'images/ANF- Dance.png'
+58.4641 	EXP 	fixation: autoDraw = True
+58.8650 	DATA 	Keypress: n
+58.9313 	EXP 	expImg: autoDraw = True
+58.9634 	EXP 	fixation: autoDraw = False
+59.4640 	EXP 	fixation: autoDraw = False
+59.4640 	EXP 	expImg: autoDraw = False
+59.4640 	EXP 	expFeedback: text = 'Correct'
+59.4640 	EXP 	expFeedback: autoDraw = True
+59.4654 	DATA 	Keypress: n
+60.4477 	EXP 	New trial (rep=0, index=18): {'stimuli_images': 'images/F - Tree.jpg', 'face': 'y'}
+60.4641 	EXP 	expFeedback: autoDraw = False
+60.4641 	EXP 	expFeedback: autoDraw = False
+60.4641 	EXP 	expImg: image = 'images/F - Tree.jpg'
+60.4641 	EXP 	fixation: autoDraw = True
+60.7489 	DATA 	Keypress: n
+60.9473 	EXP 	expImg: autoDraw = True
+60.9641 	EXP 	fixation: autoDraw = False
+61.0642 	EXP 	fixation: autoDraw = False
+61.0642 	EXP 	expImg: autoDraw = False
+61.0642 	EXP 	expFeedback: height = 0.05
+61.0642 	EXP 	expFeedback: height = 0.05
+61.0642 	EXP 	expFeedback: height = 0.05
+61.0642 	EXP 	expFeedback: text = 'Wrong'
+61.0642 	EXP 	expFeedback: autoDraw = True
+61.0656 	DATA 	Keypress: n
+62.0480 	EXP 	New trial (rep=0, index=19): {'stimuli_images': 'images/AF - Duck.png', 'face': 'y'}
+62.0638 	EXP 	expFeedback: autoDraw = False
+62.0638 	EXP 	expFeedback: autoDraw = False
+62.0638 	EXP 	expImg: image = 'images/AF - Duck.png'
+62.0638 	EXP 	fixation: autoDraw = True
+62.3149 	DATA 	Keypress: n
+62.5479 	EXP 	expImg: autoDraw = True
+62.5646 	EXP 	fixation: autoDraw = False
+62.5803 	EXP 	fixation: autoDraw = False
+62.5803 	EXP 	expImg: autoDraw = False
+62.5803 	EXP 	expFeedback: text = 'Wrong'
+62.5803 	EXP 	expFeedback: autoDraw = True
+62.5819 	DATA 	Keypress: n
+62.8148 	DATA 	Keypress: n
+63.1152 	DATA 	Keypress: n
+63.3649 	DATA 	Keypress: n
+63.5638 	EXP 	New trial (rep=0, index=20): {'stimuli_images': 'images/ANF - Fox.jpg', 'face': 'n'}
+63.5803 	EXP 	expFeedback: autoDraw = False
+63.5803 	EXP 	expFeedback: autoDraw = False
+63.5803 	EXP 	expImg: image = 'images/ANF - Fox.jpg'
+63.5803 	EXP 	fixation: autoDraw = True
+63.5983 	DATA 	Keypress: n
+63.7987 	DATA 	Keypress: n
+64.0317 	DATA 	Keypress: n
+64.0802 	EXP 	fixation: autoDraw = False
+64.0802 	EXP 	expImg: autoDraw = True
+64.2141 	EXP 	fixation: autoDraw = False
+64.2141 	EXP 	expImg: autoDraw = False
+64.2141 	EXP 	expFeedback: height = 0.05
+64.2141 	EXP 	expFeedback: height = 0.05
+64.2141 	EXP 	expFeedback: height = 0.05
+64.2141 	EXP 	expFeedback: text = 'Correct'
+64.2141 	EXP 	expFeedback: autoDraw = True
+64.2316 	DATA 	Keypress: n
+64.4821 	DATA 	Keypress: n
+64.7155 	DATA 	Keypress: n
+64.9320 	DATA 	Keypress: n
+65.1978 	EXP 	New trial (rep=0, index=21): {'stimuli_images': 'images/AF - Aquamarine.png', 'face': 'y'}
+65.2744 	DATA 	Keypress: n
+65.2834 	EXP 	expFeedback: autoDraw = False
+65.2834 	EXP 	expFeedback: autoDraw = False
+65.2834 	EXP 	expImg: image = 'images/AF - Aquamarine.png'
+65.2834 	EXP 	fixation: autoDraw = True
+65.4321 	DATA 	Keypress: n
+65.6492 	DATA 	Keypress: n
+65.6979 	EXP 	expImg: autoDraw = True
+65.7982 	EXP 	fixation: autoDraw = False
+65.8476 	EXP 	fixation: autoDraw = False
+65.8476 	EXP 	expImg: autoDraw = False
+65.8476 	EXP 	expFeedback: height = 0.05
+65.8476 	EXP 	expFeedback: height = 0.05
+65.8476 	EXP 	expFeedback: height = 0.05
+65.8476 	EXP 	expFeedback: text = 'Wrong'
+65.8476 	EXP 	expFeedback: autoDraw = True
+65.8491 	DATA 	Keypress: n
+66.0823 	DATA 	Keypress: n
+66.3653 	DATA 	Keypress: n
+66.5988 	DATA 	Keypress: n
+66.8326 	EXP 	New trial (rep=0, index=22): {'stimuli_images': 'images/AF - girl 2.png', 'face': 'y'}
+66.8620 	DATA 	Keypress: n
+66.8829 	EXP 	expFeedback: autoDraw = False
+66.8829 	EXP 	expFeedback: autoDraw = False
+66.8829 	EXP 	expImg: image = 'images/AF - girl 2.png'
+66.8829 	EXP 	fixation: autoDraw = True
+67.0652 	DATA 	Keypress: n
+67.2987 	DATA 	Keypress: n
+67.3476 	EXP 	expImg: autoDraw = True
+67.3976 	EXP 	fixation: autoDraw = False
+67.5139 	EXP 	fixation: autoDraw = False
+67.5139 	EXP 	expImg: autoDraw = False
+67.5139 	EXP 	expFeedback: text = 'Wrong'
+67.5139 	EXP 	expFeedback: autoDraw = True
+67.5154 	DATA 	Keypress: n
+67.7493 	DATA 	Keypress: n
+67.9991 	DATA 	Keypress: n
+68.2323 	DATA 	Keypress: n
+68.4325 	DATA 	Keypress: n
+68.4975 	EXP 	New trial (rep=0, index=23): {'stimuli_images': 'images/NF - Elec-Plug.jpg', 'face': 'n'}
+68.5150 	EXP 	expFeedback: autoDraw = False
+68.5150 	EXP 	expFeedback: autoDraw = False
+68.5150 	EXP 	expImg: image = 'images/NF - Elec-Plug.jpg'
+68.5150 	EXP 	fixation: autoDraw = True
+68.6655 	DATA 	Keypress: n
+68.9158 	DATA 	Keypress: n
+69.0145 	EXP 	fixation: autoDraw = False
+69.0145 	EXP 	expImg: autoDraw = True
+69.1310 	EXP 	fixation: autoDraw = False
+69.1310 	EXP 	expImg: autoDraw = False
+69.1310 	EXP 	expFeedback: height = 0.05
+69.1310 	EXP 	expFeedback: height = 0.05
+69.1310 	EXP 	expFeedback: height = 0.05
+69.1310 	EXP 	expFeedback: text = 'Correct'
+69.1310 	EXP 	expFeedback: autoDraw = True
+69.1325 	DATA 	Keypress: n
+69.3489 	DATA 	Keypress: n
+69.5654 	DATA 	Keypress: n
+69.7992 	DATA 	Keypress: n
+70.0994 	DATA 	Keypress: n
+70.1155 	EXP 	New trial (rep=0, index=24): {'stimuli_images': 'images/ANF - Panda.jpg', 'face': 'n'}
+70.1487 	EXP 	expFeedback: autoDraw = False
+70.1487 	EXP 	expFeedback: autoDraw = False
+70.1487 	EXP 	expImg: image = 'images/ANF - Panda.jpg'
+70.1487 	EXP 	fixation: autoDraw = True
+70.3990 	DATA 	Keypress: n
+70.6145 	EXP 	expImg: autoDraw = True
+70.6164 	DATA 	Keypress: n
+70.6474 	EXP 	fixation: autoDraw = False
+70.8308 	EXP 	fixation: autoDraw = False
+70.8308 	EXP 	expImg: autoDraw = False
+70.8308 	EXP 	expFeedback: text = 'Correct'
+70.8308 	EXP 	expFeedback: autoDraw = True
+70.8323 	DATA 	Keypress: n
+71.0655 	DATA 	Keypress: n
+71.2822 	DATA 	Keypress: n
+71.4826 	DATA 	Keypress: n
+71.6998 	DATA 	Keypress: n
+71.8147 	EXP 	New trial (rep=0, index=25): {'stimuli_images': 'images/AF - Fox.jpg', 'face': 'y'}
+71.8309 	EXP 	expFeedback: autoDraw = False
+71.8309 	EXP 	expFeedback: autoDraw = False
+71.8309 	EXP 	expImg: image = 'images/AF - Fox.jpg'
+71.8309 	EXP 	fixation: autoDraw = True
+71.9322 	DATA 	Keypress: n
+72.1321 	DATA 	Keypress: n
+72.3314 	EXP 	fixation: autoDraw = False
+72.3314 	EXP 	expImg: autoDraw = True
+72.3642 	EXP 	fixation: autoDraw = False
+72.3642 	EXP 	expImg: autoDraw = False
+72.3642 	EXP 	expFeedback: height = 0.05
+72.3642 	EXP 	expFeedback: height = 0.05
+72.3642 	EXP 	expFeedback: height = 0.05
+72.3642 	EXP 	expFeedback: text = 'Wrong'
+72.3642 	EXP 	expFeedback: autoDraw = True
+72.3659 	DATA 	Keypress: n
+72.5822 	DATA 	Keypress: n
+72.7980 	DATA 	Keypress: n
+73.0318 	DATA 	Keypress: n
+73.2490 	DATA 	Keypress: n
+73.3484 	EXP 	New trial (rep=0, index=26): {'stimuli_images': 'images/NF - Tiang.jpg', 'face': 'n'}
+73.3641 	EXP 	expFeedback: autoDraw = False
+73.3641 	EXP 	expFeedback: autoDraw = False
+73.3641 	EXP 	expImg: image = 'images/NF - Tiang.jpg'
+73.3641 	EXP 	fixation: autoDraw = True
+73.4659 	DATA 	Keypress: n
+73.6989 	DATA 	Keypress: n
+73.8645 	EXP 	fixation: autoDraw = False
+73.8645 	EXP 	expImg: autoDraw = True
+73.9143 	EXP 	fixation: autoDraw = False
+73.9143 	EXP 	expImg: autoDraw = False
+73.9143 	EXP 	expFeedback: height = 0.05
+73.9143 	EXP 	expFeedback: height = 0.05
+73.9143 	EXP 	expFeedback: height = 0.05
+73.9143 	EXP 	expFeedback: text = 'Correct'
+73.9143 	EXP 	expFeedback: autoDraw = True
+73.9154 	DATA 	Keypress: n
+74.1489 	DATA 	Keypress: n
+74.3827 	DATA 	Keypress: n
+74.6154 	DATA 	Keypress: n
+74.8821 	DATA 	Keypress: n
+74.8985 	EXP 	New trial (rep=0, index=27): {'stimuli_images': 'images/F - Elec-Plug.jpg', 'face': 'y'}
+74.9321 	EXP 	expFeedback: autoDraw = False
+74.9321 	EXP 	expFeedback: autoDraw = False
+74.9321 	EXP 	expImg: image = 'images/F - Elec-Plug.jpg'
+74.9321 	EXP 	fixation: autoDraw = True
+75.1323 	DATA 	Keypress: n
+75.3657 	DATA 	Keypress: n
+75.3978 	EXP 	expImg: autoDraw = True
+75.4311 	EXP 	fixation: autoDraw = False
+75.5975 	EXP 	fixation: autoDraw = False
+75.5975 	EXP 	expImg: autoDraw = False
+75.5975 	EXP 	expFeedback: height = 0.05
+75.5975 	EXP 	expFeedback: height = 0.05
+75.5975 	EXP 	expFeedback: height = 0.05
+75.5975 	EXP 	expFeedback: text = 'Wrong'
+75.5975 	EXP 	expFeedback: autoDraw = True
+75.5988 	DATA 	Keypress: n
+75.8323 	DATA 	Keypress: n
+76.1156 	DATA 	Keypress: n
+76.3487 	DATA 	Keypress: n
+76.5656 	DATA 	Keypress: n
+76.5819 	EXP 	New trial (rep=0, index=28): {'stimuli_images': 'images/NF - Vege.png', 'face': 'n'}
+76.6145 	EXP 	expFeedback: autoDraw = False
+76.6145 	EXP 	expFeedback: autoDraw = False
+76.6145 	EXP 	expImg: image = 'images/NF - Vege.png'
+76.6145 	EXP 	fixation: autoDraw = True
+76.8155 	DATA 	Keypress: n
+77.0490 	DATA 	Keypress: n
+77.0808 	EXP 	expImg: autoDraw = True
+77.1146 	EXP 	fixation: autoDraw = False
+77.2979 	EXP 	fixation: autoDraw = False
+77.2979 	EXP 	expImg: autoDraw = False
+77.2979 	EXP 	expFeedback: height = 0.05
+77.2979 	EXP 	expFeedback: height = 0.05
+77.2979 	EXP 	expFeedback: height = 0.05
+77.2979 	EXP 	expFeedback: text = 'Correct'
+77.2979 	EXP 	expFeedback: autoDraw = True
+77.2993 	DATA 	Keypress: n
+77.5489 	DATA 	Keypress: n
+77.8152 	DATA 	Keypress: n
+78.0489 	DATA 	Keypress: n
+78.2976 	EXP 	New trial (rep=0, index=29): {'stimuli_images': 'images/NF - Bag.jpg', 'face': 'n'}
+78.3000 	DATA 	Keypress: n
+78.3142 	EXP 	expFeedback: autoDraw = False
+78.3142 	EXP 	expImg: image = 'images/NF - Bag.jpg'
+78.3142 	EXP 	fixation: autoDraw = True
+78.5820 	DATA 	Keypress: n
+78.7983 	EXP 	expImg: autoDraw = True
+78.8144 	EXP 	fixation: autoDraw = False
+78.8307 	EXP 	fixation: autoDraw = False
+78.8307 	EXP 	expImg: autoDraw = False
+78.8307 	EXP 	expFeedback: text = 'Correct'
+78.8307 	EXP 	expFeedback: autoDraw = True
+78.8321 	DATA 	Keypress: n
+79.0655 	DATA 	Keypress: n
+79.3163 	DATA 	Keypress: n
+79.5488 	DATA 	Keypress: n
+79.8148 	EXP 	New trial (rep=0, index=30): {'stimuli_images': 'images/F - Tiang.jpg', 'face': 'y'}
+79.8215 	DATA 	Keypress: n
+79.8314 	EXP 	expFeedback: autoDraw = False
+79.8314 	EXP 	expFeedback: autoDraw = False
+79.8314 	EXP 	expImg: image = 'images/F - Tiang.jpg'
+79.8314 	EXP 	fixation: autoDraw = True
+80.0654 	DATA 	Keypress: n
+80.3150 	EXP 	expImg: autoDraw = True
+80.3162 	DATA 	Keypress: n
+80.3313 	EXP 	fixation: autoDraw = False
+80.5644 	EXP 	fixation: autoDraw = False
+80.5644 	EXP 	expImg: autoDraw = False
+80.5644 	EXP 	expFeedback: height = 0.05
+80.5644 	EXP 	expFeedback: height = 0.05
+80.5644 	EXP 	expFeedback: height = 0.05
+80.5644 	EXP 	expFeedback: text = 'Wrong'
+80.5644 	EXP 	expFeedback: autoDraw = True
+80.5660 	DATA 	Keypress: n
+80.8162 	DATA 	Keypress: n
+81.0826 	DATA 	Keypress: n
+81.3322 	DATA 	Keypress: n
+81.5482 	EXP 	New trial (rep=0, index=31): {'stimuli_images': 'images/F - Bag 2.jpg', 'face': 'y'}
+81.5545 	DATA 	Keypress: n
+81.5649 	EXP 	expFeedback: autoDraw = False
+81.5649 	EXP 	expFeedback: autoDraw = False
+81.5649 	EXP 	expImg: image = 'images/F - Bag 2.jpg'
+81.5649 	EXP 	fixation: autoDraw = True
+81.8325 	DATA 	Keypress: n
+82.0647 	EXP 	fixation: autoDraw = False
+82.0647 	EXP 	expImg: autoDraw = True
+82.0976 	EXP 	fixation: autoDraw = False
+82.0976 	EXP 	expImg: autoDraw = False
+82.0976 	EXP 	expFeedback: text = 'Wrong'
+82.0976 	EXP 	expFeedback: autoDraw = True
+82.0991 	DATA 	Keypress: n
+82.3325 	DATA 	Keypress: n
+82.5990 	DATA 	Keypress: n
+82.8486 	DATA 	Keypress: n
+83.0817 	EXP 	New trial (rep=0, index=32): {'stimuli_images': 'images/AF- Dance.png', 'face': 'y'}
+83.1146 	EXP 	expFeedback: autoDraw = False
+83.1146 	EXP 	expFeedback: autoDraw = False
+83.1146 	EXP 	expImg: image = 'images/AF- Dance.png'
+83.1146 	EXP 	fixation: autoDraw = True
+83.1159 	DATA 	Keypress: n
+83.3323 	DATA 	Keypress: n
+83.5663 	DATA 	Keypress: n
+83.5812 	EXP 	expImg: autoDraw = True
+83.6145 	EXP 	fixation: autoDraw = False
+83.8144 	EXP 	fixation: autoDraw = False
+83.8144 	EXP 	expImg: autoDraw = False
+83.8144 	EXP 	expFeedback: text = 'Wrong'
+83.8144 	EXP 	expFeedback: autoDraw = True
+83.8157 	DATA 	Keypress: n
+84.0341 	DATA 	Keypress: n
+84.2828 	DATA 	Keypress: n
+84.5323 	DATA 	Keypress: n
+84.7984 	EXP 	New trial (rep=0, index=33): {'stimuli_images': 'images/AF - Cat.jpg', 'face': 'y'}
+84.8036 	DATA 	Keypress: n
+84.8146 	EXP 	expFeedback: autoDraw = False
+84.8146 	EXP 	expFeedback: autoDraw = False
+84.8146 	EXP 	expImg: image = 'images/AF - Cat.jpg'
+84.8146 	EXP 	fixation: autoDraw = True
+85.0658 	DATA 	Keypress: n
+85.2987 	EXP 	expImg: autoDraw = True
+85.3148 	EXP 	fixation: autoDraw = False
+85.3308 	EXP 	fixation: autoDraw = False
+85.3308 	EXP 	expImg: autoDraw = False
+85.3308 	EXP 	expFeedback: text = 'Wrong'
+85.3308 	EXP 	expFeedback: autoDraw = True
+85.3321 	DATA 	Keypress: n
+85.5659 	DATA 	Keypress: n
+85.8155 	DATA 	Keypress: n
+86.0824 	DATA 	Keypress: n
+86.3153 	EXP 	New trial (rep=0, index=34): {'stimuli_images': 'images/NF - Bag 2.jpg', 'face': 'n'}
+86.3313 	EXP 	expFeedback: autoDraw = False
+86.3313 	EXP 	expFeedback: autoDraw = False
+86.3313 	EXP 	expImg: image = 'images/NF - Bag 2.jpg'
+86.3313 	EXP 	fixation: autoDraw = True
+86.3493 	DATA 	Keypress: n
+86.6159 	DATA 	Keypress: n
+86.8315 	EXP 	fixation: autoDraw = False
+86.8315 	EXP 	expImg: autoDraw = True
+86.8810 	EXP 	fixation: autoDraw = False
+86.8810 	EXP 	expImg: autoDraw = False
+86.8810 	EXP 	expFeedback: height = 0.05
+86.8810 	EXP 	expFeedback: height = 0.05
+86.8810 	EXP 	expFeedback: height = 0.05
+86.8810 	EXP 	expFeedback: text = 'Correct'
+86.8810 	EXP 	expFeedback: autoDraw = True
+86.8823 	DATA 	Keypress: n
+87.1491 	DATA 	Keypress: n
+87.3993 	DATA 	Keypress: n
+87.6659 	DATA 	Keypress: n
+87.8650 	EXP 	New trial (rep=0, index=35): {'stimuli_images': 'images/NF - Tree.jpg', 'face': 'n'}
+87.8980 	EXP 	expFeedback: autoDraw = False
+87.8980 	EXP 	expFeedback: autoDraw = False
+87.8980 	EXP 	expImg: image = 'images/NF - Tree.jpg'
+87.8980 	EXP 	fixation: autoDraw = True
+87.9160 	DATA 	Keypress: n
+88.1830 	DATA 	Keypress: n
+88.3648 	EXP 	expImg: autoDraw = True
+88.3980 	EXP 	fixation: autoDraw = False
+88.4644 	EXP 	fixation: autoDraw = False
+88.4644 	EXP 	expImg: autoDraw = False
+88.4644 	EXP 	expFeedback: text = 'Correct'
+88.4644 	EXP 	expFeedback: autoDraw = True
+88.4658 	DATA 	Keypress: n
+88.7159 	DATA 	Keypress: n
+88.9825 	DATA 	Keypress: n
+89.2321 	DATA 	Keypress: n
+89.4482 	EXP 	New trial (rep=0, index=36): {'stimuli_images': 'images/F - House.jpg', 'face': 'y'}
+89.4906 	EXP 	expFeedback: autoDraw = False
+89.4906 	EXP 	expFeedback: autoDraw = False
+89.4906 	EXP 	expImg: image = 'images/F - House.jpg'
+89.4906 	EXP 	fixation: autoDraw = True
+89.4921 	DATA 	Keypress: n
+89.7489 	DATA 	Keypress: n
+89.9648 	EXP 	expImg: autoDraw = True
+89.9978 	EXP 	fixation: autoDraw = False
+89.9978 	EXP 	fixation: autoDraw = False
+89.9978 	EXP 	expImg: autoDraw = False
+89.9978 	EXP 	expFeedback: height = 0.05
+89.9978 	EXP 	expFeedback: height = 0.05
+89.9978 	EXP 	expFeedback: height = 0.05
+89.9978 	EXP 	expFeedback: text = 'Wrong'
+89.9978 	EXP 	expFeedback: autoDraw = True
+89.9990 	DATA 	Keypress: n
+90.2327 	DATA 	Keypress: n
+90.4829 	DATA 	Keypress: n
+90.6992 	DATA 	Keypress: n
+90.9671 	DATA 	Keypress: n
+90.9819 	EXP 	New trial (rep=0, index=37): {'stimuli_images': 'images/F - Vege.jpg', 'face': 'y'}
+90.9980 	EXP 	expFeedback: autoDraw = False
+90.9980 	EXP 	expFeedback: autoDraw = False
+90.9980 	EXP 	expImg: image = 'images/F - Vege.jpg'
+90.9980 	EXP 	fixation: autoDraw = True
+91.2159 	DATA 	Keypress: n
+91.4824 	DATA 	Keypress: n
+91.4980 	EXP 	fixation: autoDraw = False
+91.4980 	EXP 	expImg: autoDraw = True
+91.7309 	EXP 	fixation: autoDraw = False
+91.7309 	EXP 	expImg: autoDraw = False
+91.7309 	EXP 	expFeedback: text = 'Wrong'
+91.7309 	EXP 	expFeedback: autoDraw = True
+91.7321 	DATA 	Keypress: n
+92.0160 	DATA 	Keypress: n
+92.2828 	DATA 	Keypress: n
+92.5329 	DATA 	Keypress: n
+92.7152 	EXP 	New trial (rep=0, index=38): {'stimuli_images': 'images/F - Bag.jpg', 'face': 'y'}
+92.7486 	EXP 	expFeedback: autoDraw = False
+92.7486 	EXP 	expFeedback: autoDraw = False
+92.7486 	EXP 	expImg: image = 'images/F - Bag.jpg'
+92.7486 	EXP 	fixation: autoDraw = True
+92.7656 	DATA 	Keypress: n
+93.0162 	DATA 	Keypress: n
+93.2315 	EXP 	expImg: autoDraw = True
+93.2480 	EXP 	fixation: autoDraw = False
+93.2642 	EXP 	fixation: autoDraw = False
+93.2642 	EXP 	expImg: autoDraw = False
+93.2642 	EXP 	expFeedback: text = 'Wrong'
+93.2642 	EXP 	expFeedback: autoDraw = True
+93.2654 	DATA 	Keypress: n
+93.4994 	DATA 	Keypress: n
+93.7492 	DATA 	Keypress: n
+93.9996 	DATA 	Keypress: n
+94.2330 	DATA 	Keypress: n
+94.2482 	EXP 	New trial (rep=0, index=39): {'stimuli_images': 'images/AF - Knight.png', 'face': 'y'}
+94.2816 	EXP 	expFeedback: autoDraw = False
+94.2816 	EXP 	expFeedback: autoDraw = False
+94.2816 	EXP 	expImg: image = 'images/AF - Knight.png'
+94.2816 	EXP 	fixation: autoDraw = True
+94.4824 	DATA 	Keypress: n
+94.7332 	DATA 	Keypress: n
+94.7483 	EXP 	expImg: autoDraw = True
+94.7820 	EXP 	fixation: autoDraw = False
+94.9810 	EXP 	fixation: autoDraw = False
+94.9810 	EXP 	expImg: autoDraw = False
+94.9810 	EXP 	expFeedback: text = 'Wrong'
+94.9810 	EXP 	expFeedback: autoDraw = True
+94.9825 	DATA 	Keypress: n
+95.2163 	DATA 	Keypress: n
+95.4988 	DATA 	Keypress: n
+95.7660 	DATA 	Keypress: n
+95.9650 	EXP 	New trial (rep=0, index=40): {'stimuli_images': 'images/NF - Onion.jpg', 'face': 'n'}
+95.9810 	EXP 	expFeedback: autoDraw = False
+95.9810 	EXP 	expFeedback: autoDraw = False
+95.9810 	EXP 	expImg: image = 'images/NF - Onion.jpg'
+95.9810 	EXP 	fixation: autoDraw = True
+96.0160 	DATA 	Keypress: n
+96.2825 	DATA 	Keypress: n
+96.4814 	EXP 	fixation: autoDraw = False
+96.4814 	EXP 	expImg: autoDraw = True
+96.5478 	EXP 	fixation: autoDraw = False
+96.5478 	EXP 	expImg: autoDraw = False
+96.5478 	EXP 	expFeedback: height = 0.05
+96.5478 	EXP 	expFeedback: height = 0.05
+96.5478 	EXP 	expFeedback: height = 0.05
+96.5478 	EXP 	expFeedback: text = 'Correct'
+96.5478 	EXP 	expFeedback: autoDraw = True
+96.5492 	DATA 	Keypress: n
+96.7825 	DATA 	Keypress: n
+97.0161 	DATA 	Keypress: n
+97.2660 	DATA 	Keypress: n
+97.5317 	EXP 	New trial (rep=0, index=41): {'stimuli_images': 'images/ANF - girl 1.png', 'face': 'n'}
+97.5478 	EXP 	expFeedback: autoDraw = False
+97.5478 	EXP 	expFeedback: autoDraw = False
+97.5478 	EXP 	expImg: image = 'images/ANF - girl 1.png'
+97.5478 	EXP 	fixation: autoDraw = True
+97.5488 	DATA 	Keypress: n
+97.7822 	DATA 	Keypress: n
+98.0327 	DATA 	Keypress: n
+98.0482 	EXP 	fixation: autoDraw = False
+98.0482 	EXP 	expImg: autoDraw = True
+98.2645 	EXP 	fixation: autoDraw = False
+98.2645 	EXP 	expImg: autoDraw = False
+98.2645 	EXP 	expFeedback: text = 'Correct'
+98.2645 	EXP 	expFeedback: autoDraw = True
+98.2658 	DATA 	Keypress: n
+98.4990 	DATA 	Keypress: n
+98.7655 	DATA 	Keypress: n
+99.0329 	DATA 	Keypress: n
+99.2482 	EXP 	New trial (rep=0, index=42): {'stimuli_images': 'images/ANF - knight.png', 'face': 'n'}
+99.2813 	EXP 	expFeedback: autoDraw = False
+99.2813 	EXP 	expFeedback: autoDraw = False
+99.2813 	EXP 	expImg: image = 'images/ANF - knight.png'
+99.2813 	EXP 	fixation: autoDraw = True
+99.2829 	DATA 	Keypress: n
+99.5156 	DATA 	Keypress: n
+99.7650 	EXP 	expImg: autoDraw = True
+99.7816 	EXP 	fixation: autoDraw = False
+99.8145 	EXP 	fixation: autoDraw = False
+99.8145 	EXP 	expImg: autoDraw = False
+99.8145 	EXP 	expFeedback: text = 'Correct'
+99.8145 	EXP 	expFeedback: autoDraw = True
+99.8161 	DATA 	Keypress: n
+100.0492 	DATA 	Keypress: n
+100.2990 	DATA 	Keypress: n
+100.6154 	DATA 	Keypress: n
+100.7988 	EXP 	New trial (rep=0, index=43): {'stimuli_images': 'images/F - Onion.jpg', 'face': 'y'}
+100.8151 	EXP 	expFeedback: autoDraw = False
+100.8151 	EXP 	expFeedback: autoDraw = False
+100.8151 	EXP 	expImg: image = 'images/F - Onion.jpg'
+100.8151 	EXP 	fixation: autoDraw = True
+100.8832 	DATA 	Keypress: n
+101.1492 	DATA 	Keypress: n
+101.2986 	EXP 	expImg: autoDraw = True
+101.3145 	EXP 	fixation: autoDraw = False
+101.4144 	EXP 	fixation: autoDraw = False
+101.4144 	EXP 	expImg: autoDraw = False
+101.4144 	EXP 	expFeedback: height = 0.05
+101.4144 	EXP 	expFeedback: height = 0.05
+101.4144 	EXP 	expFeedback: height = 0.05
+101.4144 	EXP 	expFeedback: text = 'Wrong'
+101.4144 	EXP 	expFeedback: autoDraw = True
+101.4156 	DATA 	Keypress: n
+101.6329 	DATA 	Keypress: n
+101.8663 	DATA 	Keypress: n
+102.1328 	DATA 	Keypress: n
+102.3827 	DATA 	Keypress: n
+102.3990 	EXP 	New trial (rep=1, index=0): {'stimuli_images': 'images/ANF - girl 2.png', 'face': 'n'}
+102.4320 	EXP 	expFeedback: autoDraw = False
+102.4320 	EXP 	expFeedback: autoDraw = False
+102.4320 	EXP 	expImg: image = 'images/ANF - girl 2.png'
+102.4320 	EXP 	fixation: autoDraw = True
+102.6490 	DATA 	Keypress: n
+102.9150 	EXP 	expImg: autoDraw = True
+102.9165 	DATA 	Keypress: n
+102.9314 	EXP 	fixation: autoDraw = False
+103.1649 	EXP 	fixation: autoDraw = False
+103.1649 	EXP 	expImg: autoDraw = False
+103.1649 	EXP 	expFeedback: height = 0.05
+103.1649 	EXP 	expFeedback: height = 0.05
+103.1649 	EXP 	expFeedback: height = 0.05
+103.1649 	EXP 	expFeedback: text = 'Correct'
+103.1649 	EXP 	expFeedback: autoDraw = True
+103.1660 	DATA 	Keypress: n
+103.4162 	DATA 	Keypress: n
+103.6658 	DATA 	Keypress: n
+103.9156 	DATA 	Keypress: n
+104.1483 	EXP 	New trial (rep=1, index=1): {'stimuli_images': 'images/ANF - knight.png', 'face': 'n'}
+104.1817 	EXP 	expFeedback: autoDraw = False
+104.1817 	EXP 	expFeedback: autoDraw = False
+104.1817 	EXP 	expImg: image = 'images/ANF - knight.png'
+104.1817 	EXP 	fixation: autoDraw = True
+104.1830 	DATA 	Keypress: n
+104.4831 	DATA 	Keypress: n
+104.6481 	EXP 	expImg: autoDraw = True
+104.6813 	EXP 	fixation: autoDraw = False
+104.7815 	EXP 	fixation: autoDraw = False
+104.7815 	EXP 	expImg: autoDraw = False
+104.7815 	EXP 	expFeedback: text = 'Correct'
+104.7815 	EXP 	expFeedback: autoDraw = True
+104.7831 	DATA 	Keypress: n
+105.0491 	DATA 	Keypress: n
+105.2992 	DATA 	Keypress: n
+105.5492 	DATA 	Keypress: n
+105.7650 	EXP 	New trial (rep=1, index=2): {'stimuli_images': 'images/F - Elec-Plug.jpg', 'face': 'y'}
+105.7999 	EXP 	expFeedback: autoDraw = False
+105.7999 	EXP 	expFeedback: autoDraw = False
+105.7999 	EXP 	expImg: image = 'images/F - Elec-Plug.jpg'
+105.7999 	EXP 	fixation: autoDraw = True
+105.8014 	DATA 	Keypress: n
+106.0495 	DATA 	Keypress: n
+106.2818 	EXP 	expImg: autoDraw = True
+106.2837 	DATA 	Keypress: n
+106.3156 	EXP 	fixation: autoDraw = False
+106.5481 	EXP 	fixation: autoDraw = False
+106.5481 	EXP 	expImg: autoDraw = False
+106.5481 	EXP 	expFeedback: height = 0.05
+106.5481 	EXP 	expFeedback: height = 0.05
+106.5481 	EXP 	expFeedback: height = 0.05
+106.5481 	EXP 	expFeedback: text = 'Wrong'
+106.5481 	EXP 	expFeedback: autoDraw = True
+106.5493 	DATA 	Keypress: n
+106.7831 	DATA 	Keypress: n
+107.0331 	DATA 	Keypress: n
+107.2660 	DATA 	Keypress: n
+107.4829 	DATA 	Keypress: n
+107.5328 	EXP 	New trial (rep=1, index=3): {'stimuli_images': 'images/ANF - Otter.jpg', 'face': 'n'}
+107.5485 	EXP 	expFeedback: autoDraw = False
+107.5485 	EXP 	expFeedback: autoDraw = False
+107.5485 	EXP 	expImg: image = 'images/ANF - Otter.jpg'
+107.5485 	EXP 	fixation: autoDraw = True
+107.7496 	DATA 	Keypress: n
+107.9997 	DATA 	Keypress: n
+108.0481 	EXP 	fixation: autoDraw = False
+108.0481 	EXP 	expImg: autoDraw = True
+108.2648 	EXP 	fixation: autoDraw = False
+108.2648 	EXP 	expImg: autoDraw = False
+108.2648 	EXP 	expFeedback: height = 0.05
+108.2648 	EXP 	expFeedback: height = 0.05
+108.2648 	EXP 	expFeedback: height = 0.05
+108.2648 	EXP 	expFeedback: text = 'Correct'
+108.2648 	EXP 	expFeedback: autoDraw = True
+108.2660 	DATA 	Keypress: n
+108.5160 	DATA 	Keypress: n
+108.7481 	DATA 	Keypress: n
+108.9827 	DATA 	Keypress: n
+109.2485 	EXP 	New trial (rep=1, index=4): {'stimuli_images': 'images/F - Chilli.png', 'face': 'y'}
+109.2652 	EXP 	expFeedback: autoDraw = False
+109.2652 	EXP 	expFeedback: autoDraw = False
+109.2652 	EXP 	expImg: image = 'images/F - Chilli.png'
+109.2652 	EXP 	fixation: autoDraw = True
+109.3331 	DATA 	Keypress: n
+109.5326 	DATA 	Keypress: n
+109.6999 	DATA 	Keypress: n
+109.7649 	EXP 	fixation: autoDraw = False
+109.7649 	EXP 	expImg: autoDraw = True
+109.8643 	EXP 	fixation: autoDraw = False
+109.8643 	EXP 	expImg: autoDraw = False
+109.8643 	EXP 	expFeedback: height = 0.05
+109.8643 	EXP 	expFeedback: height = 0.05
+109.8643 	EXP 	expFeedback: height = 0.05
+109.8643 	EXP 	expFeedback: text = 'Wrong'
+109.8643 	EXP 	expFeedback: autoDraw = True
+109.8656 	DATA 	Keypress: n
+110.0330 	DATA 	Keypress: n
+110.1830 	DATA 	Keypress: n
+110.3328 	DATA 	Keypress: n
+110.5162 	DATA 	Keypress: n
+110.6831 	DATA 	Keypress: n
+110.8490 	EXP 	New trial (rep=1, index=5): {'stimuli_images': 'images/NF - Tree.jpg', 'face': 'n'}
+110.8621 	DATA 	Keypress: n
+110.8817 	EXP 	expFeedback: autoDraw = False
+110.8817 	EXP 	expFeedback: autoDraw = False
+110.8817 	EXP 	expImg: image = 'images/NF - Tree.jpg'
+110.8817 	EXP 	fixation: autoDraw = True
+111.0333 	DATA 	Keypress: n
+111.2165 	DATA 	Keypress: n
+111.3646 	EXP 	expImg: autoDraw = True
+111.3816 	EXP 	fixation: autoDraw = False
+111.3980 	EXP 	fixation: autoDraw = False
+111.3980 	EXP 	expImg: autoDraw = False
+111.3980 	EXP 	expFeedback: height = 0.05
+111.3980 	EXP 	expFeedback: height = 0.05
+111.3980 	EXP 	expFeedback: height = 0.05
+111.3980 	EXP 	expFeedback: text = 'Correct'
+111.3980 	EXP 	expFeedback: autoDraw = True
+111.3993 	DATA 	Keypress: n
+111.5994 	DATA 	Keypress: n
+111.7492 	DATA 	Keypress: n
+111.9328 	DATA 	Keypress: n
+112.1496 	DATA 	Keypress: n
+112.3158 	DATA 	Keypress: n
+112.3823 	EXP 	New trial (rep=1, index=6): {'stimuli_images': 'images/F - Bag 2.jpg', 'face': 'y'}
+112.3988 	EXP 	expFeedback: autoDraw = False
+112.3988 	EXP 	expFeedback: autoDraw = False
+112.3988 	EXP 	expImg: image = 'images/F - Bag 2.jpg'
+112.3988 	EXP 	fixation: autoDraw = True
+112.5020 	DATA 	Keypress: n
+112.6863 	DATA 	Keypress: n
+112.8527 	DATA 	Keypress: n
+112.8849 	EXP 	expImg: autoDraw = True
+112.9017 	EXP 	fixation: autoDraw = False
+113.0510 	EXP 	fixation: autoDraw = False
+113.0510 	EXP 	expImg: autoDraw = False
+113.0510 	EXP 	expFeedback: height = 0.05
+113.0510 	EXP 	expFeedback: height = 0.05
+113.0510 	EXP 	expFeedback: height = 0.05
+113.0510 	EXP 	expFeedback: text = 'Wrong'
+113.0510 	EXP 	expFeedback: autoDraw = True
+113.0524 	DATA 	Keypress: n
+113.2190 	DATA 	Keypress: n
+113.4207 	DATA 	Keypress: n
+113.5852 	DATA 	Keypress: n
+113.7655 	DATA 	Keypress: n
+113.9492 	DATA 	Keypress: n
+114.0481 	EXP 	New trial (rep=1, index=7): {'stimuli_images': 'images/AF- Dance.png', 'face': 'y'}
+114.0817 	EXP 	expFeedback: autoDraw = False
+114.0817 	EXP 	expImg: image = 'images/AF- Dance.png'
+114.0817 	EXP 	fixation: autoDraw = True
+114.1332 	DATA 	Keypress: n
+114.3156 	DATA 	Keypress: n
+114.4989 	DATA 	Keypress: n
+114.5482 	EXP 	expImg: autoDraw = True
+114.5813 	EXP 	fixation: autoDraw = False
+114.6641 	EXP 	fixation: autoDraw = False
+114.6641 	EXP 	expImg: autoDraw = False
+114.6641 	EXP 	expFeedback: text = 'Wrong'
+114.6641 	EXP 	expFeedback: autoDraw = True
+114.6652 	DATA 	Keypress: n
+114.8325 	DATA 	Keypress: n
+114.9320 	DATA 	Keypress: escape
+115.5832 	EXP 	window1: mouseVisible = True
